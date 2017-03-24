@@ -1,4 +1,4 @@
-print ('suma cuadrado de n numeros usando recursividad')
+print ('--suma cuadrado de n numeros usando recursividad--')
 lis=eval(input("ingrese la lista"))
 
 def suma(lista):

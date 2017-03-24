@@ -7,20 +7,19 @@ z=input("Escriba el dato 3: ")
 
 print ("numeros:", x, y, z)
 
-mayor=0
+def mayor(x,y,z):
+	mayor=0
+	if x > y:
+		mayor=x
+	elif y>x:
+		mayor=y
+	if mayor>z:
+		mayor=mayor
+	elif z>mayor:
+		mayor=z
+	print ("el mayor de los 3 numeros es:", mayor)
 
-if x > y:
-    mayor=x
-elif y>x:
-    mayor=y
-if mayor>z:
-    mayor=mayor
-elif z>mayor:
-        mayor=z
-    
+mayor(x,y,z)
 
-
-
-print ("el mayor de los 3 numeros es:", mayor)
                 
                 
